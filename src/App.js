@@ -9,8 +9,11 @@ class App extends Component {
       <div className={styles.App}>
         <header className={styles.appHeader}>
           <img src={logo} className={styles.appLogo} alt="logo" />
-          <h1 className={styles.appTitle}>连线教育</h1>
+          <h1 className={styles.appTitle}>Welcome to React</h1>
         </header>
+        <p className={styles.appIntro}>
+          <span>To get started, edit</span> <code>src/App.js</code> <span>and save to reload.</span>
+        </p>
       </div>
     )
   }
